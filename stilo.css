@@ -1,0 +1,88 @@
+header,
+footer {
+    width: 80%;
+    border: solid #e0c6c6;
+    background-color: rgb(203, 193, 214);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    /*para o padding nao aumentar a caixa*/
+}
+
+* {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+nav {
+    width: 80%;
+    background-color: rgb(223, 192, 192);
+    border: solid #bd9595 1px;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+nav a {
+    padding: 5px 30px;
+    /*margen de 5px cima/baixo e 30px esquerda/direita*/
+    color: black;
+    /*cor da letra*/
+    text-decoration: none;
+    /*retira o sublinhado*/
+}
+
+nav a:hover {
+    color: rgb(228, 42, 9);
+    /*quando levar o mouse encima da letra mudar de cor para vermelho*/
+}
+
+main {
+    width: 80%;
+    height: 400px;
+    background-color: antiquewhite;
+    box-sizing: solid #c0c0c0;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+Futebol {
+    background-color: rgb(15, 15, 15);
+}
+
+main.teste {
+    height: 500px;
+    background-image: url('fundo.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+div.testi{
+width:  "80%";
+text-align :  "center";
+padding : "20px";
+border-radius :"20px";
+background-color:  rgba(255,255,255,0.3);
+}
+
+div{
+    text-Align :"center";
+    padding-Top : "20px";
+    color :"black";
+    
+}
+
+body.branca{
+background-color: white;
+}
+
+body.preta{
+background-color: black;
+
+}
